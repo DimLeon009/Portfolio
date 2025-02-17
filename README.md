@@ -10,7 +10,11 @@ Ce site présente mes projets, compétences et expériences dans le domaine du d
 - **HTML5** / **CSS3** / **JavaScript**  
 
 ## 📸 Aperçu  
-  
+
+  ![Capture d’écran du 2025-02-17 20-48-44](https://github.com/user-attachments/assets/ed91c4cd-261c-4256-b7cd-1964ed746ace)
+
+  ![image](https://github.com/user-attachments/assets/f5ea3dba-25b8-4909-a09c-38622ba17076)
+
 
 ## ✨ Fonctionnalités  
 - 🎨 Design responsive  
