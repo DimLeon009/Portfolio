@@ -1,7 +1,7 @@
 # 🎨 Portfolio - Dimitry LÉONÇO  
 
 Bienvenue sur mon portfolio ! 🚀  
-Ce site présente mes projets, compétences et expériences dans le domaine du développement et de l’ingénierie.  
+Ce site présente mes projets, compétences et expériences dans le domaine du développement, des réseaux et de la cybersécurité.  
 
 ## 🌍 Démo en ligne  
 🔗 [Voir mon portfolio](https://DimLeon009.github.io/Portfolio/)  
