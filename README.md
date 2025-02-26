@@ -7,7 +7,7 @@ Ce site présente mes projets, compétences et expériences dans le domaine du d
 🔗 [Voir mon portfolio](https://DimLeon009.github.io/Portfolio/)  
 
 ## 🛠 Technologies utilisées  
-- **HTML5** / **CSS3** / **JavaScript**  
+- **HTML** / **CSS** / **JavaScript**  
 
 ## 📸 Aperçu  
 
