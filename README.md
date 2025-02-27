@@ -11,9 +11,9 @@ Ce site présente mes projets, compétences et expériences dans le domaine du d
 
 ## 📸 Aperçu  
 
-  ![Capture d’écran du 2025-02-17 20-48-44](https://github.com/user-attachments/assets/ed91c4cd-261c-4256-b7cd-1964ed746ace)
+  ![Capture d’écran du 2025-02-27 10-49-07](https://github.com/user-attachments/assets/bfe2f105-22a4-4691-b668-636ca20b4f79)
 
-  ![image](https://github.com/user-attachments/assets/f5ea3dba-25b8-4909-a09c-38622ba17076)
+  ![Capture d’écran du 2025-02-27 10-49-24](https://github.com/user-attachments/assets/73e83920-04c3-4ec8-8164-54055af76983)
 
 
 ## ✨ Fonctionnalités  
