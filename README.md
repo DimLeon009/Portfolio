@@ -19,5 +19,5 @@ Ce site est hébergé via **GitHub Pages**. Toute modification poussée sur la b
 
 ## 👤 Contact 
 👨‍💻 **Dimitry LÉONÇO**  
-📧 Contact : dimitry.leonco@etu.univ-guyane.fr  
+📧 Contact : dimitry.leonco@gmail.com
 🌐 LinkedIn : [Dimitry](https://www.linkedin.com/in/dimitry-leonco-473a8322b/)
