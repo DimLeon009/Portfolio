@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Dimitry LEONCO, étudiant en cybersécurité spécialisé en systèmes, réseaux et sécurité.">
+    <meta name="theme-color" content="#08090f">
+    <title>Dimitry LEONCO | Cybersécurité</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Turret+Road:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Aller au contenu</a>
+
+    <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Ouvrir le menu" aria-controls="sidebar" aria-expanded="false">
+        <i class="uil uil-bars" aria-hidden="true"></i>
+    </button>
+
+    <aside class="sidebar" id="sidebar">
+        <nav class="nav" aria-label="Navigation principale">
+            <a href="#home" class="nav-logo" aria-label="Retour à l'accueil">
+                <span class="nav-logo-text">DL</span>
+            </a>
+
+            <div class="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active-link" aria-label="Accueil">
+                            <i class="uil uil-estate nav-icon" aria-hidden="true"></i><span>Accueil</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link" aria-label="À propos">
+                            <i class="uil uil-user nav-icon" aria-hidden="true"></i><span>À propos</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link" aria-label="Compétences">
+                            <i class="uil uil-brackets-curly nav-icon" aria-hidden="true"></i><span>Compétences</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#work" class="nav-link" aria-label="Projets">
+                            <i class="uil uil-briefcase-alt nav-icon" aria-hidden="true"></i><span>Projets</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#qualification" class="nav-link" aria-label="Parcours">
+                            <i class="uil uil-graduation-cap nav-icon" aria-hidden="true"></i><span>Parcours</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link" aria-label="Contact">
+                            <i class="uil uil-message nav-icon" aria-hidden="true"></i><span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <a class="btn-share" href="assets/cv/cv-dimitry-leonco.pdf" download aria-label="Télécharger mon CV">
+                <i class="uil uil-import social-share" aria-hidden="true"></i>
+            </a>
+
+            <button class="nav-close" id="nav-close" type="button" aria-label="Fermer le menu">
+                <i class="uil uil-times" aria-hidden="true"></i>
+            </button>
+        </nav>
+    </aside>
+
+    <main class="main" id="main-content">
+        <section class="home" id="home">
+            <div class="home-glow home-glow-one" aria-hidden="true"></div>
+            <div class="home-glow home-glow-two" aria-hidden="true"></div>
+            <div class="home-container container grid">
+                <div class="home-social" aria-label="Réseaux sociaux">
+                    <span class="home-social-follow">Me suivre</span>
+                    <div class="home-social-links">
+                        <a href="https://github.com/DimLeon009/" target="_blank" rel="noopener noreferrer" class="home-social-link" aria-label="GitHub">
+                            <i class="uil uil-github-alt" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/dimitry-leonco" target="_blank" rel="noopener noreferrer" class="home-social-link" aria-label="LinkedIn">
+                            <i class="uil uil-linkedin-alt" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home-data">
+                    <span class="home-eyebrow">Systèmes · Réseaux · Sécurité</span>
+                    <h1 class="home-title">Bonjour, moi c'est <span>Dimitry</span></h1>
+                    <h2 class="home-subtitle">Étudiant en cybersécurité</h2>
+                    <p class="home-description">
+                        Je développe mes compétences à travers des projets concrets, de la conception
+                        d'infrastructures sécurisées au développement d'outils de cybersécurité.
+                    </p>
+                    <div class="home-actions">
+                        <a href="#work" class="button">
+                            <i class="uil uil-shield-check button-icon" aria-hidden="true"></i>
+                            Découvrir mes projets
+                        </a>
+                        <a href="assets/cv/cv-dimitry-leonco.pdf" class="button button-ghost" download>
+                            <i class="uil uil-file-download-alt button-icon" aria-hidden="true"></i>
+                            Télécharger mon CV
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home-portrait">
+                    <div class="portrait-frame">
+                        <img src="assets/images/portrait-transparent.webp" alt="Portrait de Dimitry LEONCO" class="home-img">
+                    </div>
+                    <span class="portrait-status"><span aria-hidden="true"></span> Disponible pour une alternance</span>
+                </div>
+
+                <div class="my-info">
+                    <a class="info-item" href="https://github.com/DimLeon009/" target="_blank" rel="noopener noreferrer">
+                        <i class="uil uil-github info-icon" aria-hidden="true"></i>
+                        <span><strong class="info-title">GitHub</strong><small class="info-subtitle">DimLeon009</small></span>
+                    </a>
+                    <a class="info-item" href="https://linkedin.com/in/dimitry-leonco" target="_blank" rel="noopener noreferrer">
+                        <i class="uil uil-linkedin info-icon" aria-hidden="true"></i>
+                        <span><strong class="info-title">LinkedIn</strong><small class="info-subtitle">dimitry-leonco</small></span>
+                    </a>
+                    <a class="info-item" href="mailto:dimitry.leonco@gmail.com">
+                        <i class="uil uil-envelope-edit info-icon" aria-hidden="true"></i>
+                        <span><strong class="info-title">E-mail</strong><small class="info-subtitle">Me contacter</small></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <h2 class="section-title" data-heading="Mon profil">À propos de moi</h2>
+            <div class="about-container container grid">
+                <div class="about-visual">
+                    <img src="assets/images/portrait-anthracite.webp" alt="Portrait professionnel de Dimitry LEONCO" class="about-img" loading="lazy">
+                    <div class="about-code" aria-hidden="true">
+                        <span>&gt; profil</span>
+                        <strong>cybersecurity_student</strong>
+                        <span class="code-ok">status: ready</span>
+                    </div>
+                </div>
+
+                <div class="about-data">
+                    <h3 class="about-heading">Analyser, développer et sécuriser.</h3>
+                    <p class="about-description">
+                        Étudiant à l'EPSI Montpellier en formation Expert en cybersécurité, je m'intéresse
+                        particulièrement à la sécurisation des systèmes et réseaux, à l'automatisation et
+                        au développement d'outils de sécurité. Mes expériences m'ont permis de travailler
+                        sur des environnements Microsoft, Linux, Azure, Proxmox et Stormshield.
+                    </p>
+
+                    <div class="about-info">
+                        <div class="about-box">
+                            <i class="uil uil-shield-check about-icon" aria-hidden="true"></i>
+                            <h3 class="about-title">Cybersécurité</h3>
+                            <span class="about-subtitle">Orientation défensive</span>
+                        </div>
+                        <div class="about-box">
+                            <i class="uil uil-suitcase-alt about-icon" aria-hidden="true"></i>
+                            <h3 class="about-title">Expérience</h3>
+                            <span class="about-subtitle">2 environnements IT</span>
+                        </div>
+                        <div class="about-box">
+                            <i class="uil uil-folder-check about-icon" aria-hidden="true"></i>
+                            <h3 class="about-title">Projets</h3>
+                            <span class="about-subtitle">7 réalisations</span>
+                        </div>
+                    </div>
+
+                    <a href="#contact" class="button">
+                        <i class="uil uil-navigator button-icon" aria-hidden="true"></i>
+                        Me contacter
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills section" id="skills">
+            <h2 class="section-title" data-heading="Mon savoir-faire">Compétences</h2>
+            <div class="skills-container container grid">
+                <div class="skills-tabs" role="tablist" aria-label="Catégories de compétences">
+                    <button class="skills-header skills-active" type="button" role="tab" aria-selected="true" aria-controls="systems" data-target="#systems">
+                        <i class="uil uil-server-network skills-icon" aria-hidden="true"></i>
+                        <span><strong class="skills-title">Systèmes & Réseaux</strong><small class="skills-subtitle">Administrer et interconnecter</small></span>
+                        <i class="uil uil-angle-down skills-arrow" aria-hidden="true"></i>
+                    </button>
+                    <button class="skills-header" type="button" role="tab" aria-selected="false" aria-controls="security" data-target="#security">
+                        <i class="uil uil-shield skills-icon" aria-hidden="true"></i>
+                        <span><strong class="skills-title">Cybersécurité</strong><small class="skills-subtitle">Protéger et superviser</small></span>
+                        <i class="uil uil-angle-down skills-arrow" aria-hidden="true"></i>
+                    </button>
+                    <button class="skills-header" type="button" role="tab" aria-selected="false" aria-controls="development" data-target="#development">
+                        <i class="uil uil-brackets-curly skills-icon" aria-hidden="true"></i>
+                        <span><strong class="skills-title">Développement</strong><small class="skills-subtitle">Créer et automatiser</small></span>
+                        <i class="uil uil-angle-down skills-arrow" aria-hidden="true"></i>
+                    </button>
+                </div>
+
+                <div class="skills-content">
+                    <div class="skills-group skills-active" data-content id="systems" role="tabpanel">
+                        <div class="skills-list">
+                            <span class="skill-chip"><i class="uil uil-linux"></i> Linux & Windows</span>
+                            <span class="skill-chip"><i class="uil uil-cloud"></i> Azure & Entra ID</span>
+                            <span class="skill-chip"><i class="uil uil-cube"></i> Proxmox & Docker</span>
+                            <span class="skill-chip"><i class="uil uil-wifi"></i> VLAN, DNS & DHCP</span>
+                            <span class="skill-chip"><i class="uil uil-microsoft"></i> Microsoft 365</span>
+                            <span class="skill-chip"><i class="uil uil-server"></i> Exchange & SharePoint</span>
+                        </div>
+                    </div>
+                    <div class="skills-group" data-content id="security" role="tabpanel" hidden>
+                        <div class="skills-list">
+                            <span class="skill-chip"><i class="uil uil-lock"></i> VPN IPsec</span>
+                            <span class="skill-chip"><i class="uil uil-shield-plus"></i> Stormshield</span>
+                            <span class="skill-chip"><i class="uil uil-server-network"></i> RADIUS & LDAP</span>
+                            <span class="skill-chip"><i class="uil uil-search"></i> Analyse de CVE</span>
+                            <span class="skill-chip"><i class="uil uil-award"></i> CCNA</span>
+                            <span class="skill-chip"><i class="uil uil-file-shield-alt"></i> Sécurité défensive</span>
+                        </div>
+                    </div>
+                    <div class="skills-group" data-content id="development" role="tabpanel" hidden>
+                        <div class="skills-list">
+                            <span class="skill-chip"><i class="uil uil-brackets-curly"></i> Python</span>
+                            <span class="skill-chip"><i class="uil uil-window"></i> Bash & PowerShell</span>
+                            <span class="skill-chip"><i class="uil uil-browser"></i> HTML, CSS & JavaScript</span>
+                            <span class="skill-chip"><i class="uil uil-database"></i> SQL</span>
+                            <span class="skill-chip"><i class="uil uil-code-branch"></i> Git & GitHub</span>
+                            <span class="skill-chip"><i class="uil uil-robot"></i> Automatisation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="work section" id="work">
+            <h2 class="section-title" data-heading="Mon portfolio">Projets récents</h2>
+            <div class="work-filters" role="group" aria-label="Filtrer les projets">
+                <button class="work-item active-work" type="button" data-filter="all">Tous</button>
+                <button class="work-item" type="button" data-filter="development">Développement</button>
+                <button class="work-item" type="button" data-filter="security">Cybersécurité</button>
+                <button class="work-item" type="button" data-filter="infrastructure">Infrastructure</button>
+            </div>
+            <div class="work-filter-select">
+                <span class="filter-label">Catégorie de projets</span>
+                <div class="custom-select" id="project-filter">
+                    <button class="filter-select-trigger" type="button" aria-haspopup="listbox" aria-expanded="false" aria-controls="project-filter-options">
+                        <span class="filter-current">Tous les projets</span>
+                        <i class="uil uil-angle-down select-arrow" aria-hidden="true"></i>
+                    </button>
+                    <ul class="filter-options" id="project-filter-options" role="listbox" aria-label="Catégorie de projets" hidden>
+                        <li><button type="button" role="option" aria-selected="true" class="filter-option selected" data-value="all">Tous les projets</button></li>
+                        <li><button type="button" role="option" aria-selected="false" class="filter-option" data-value="development">Développement</button></li>
+                        <li><button type="button" role="option" aria-selected="false" class="filter-option" data-value="security">Cybersécurité</button></li>
+                        <li><button type="button" role="option" aria-selected="false" class="filter-option" data-value="infrastructure">Infrastructure</button></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="work-container container grid">
+                <article class="work-card" data-category="security development" data-project="vigilant">
+                    <button class="work-media" type="button" aria-label="Voir les détails de Vigilant Guardian">
+                        <img src="assets/projects/vigilant-dashboard-source.webp" alt="Tableau de bord sombre de Vigilant Guardian" class="work-img" loading="lazy">
+                        <span class="work-eye" aria-hidden="true"><i class="uil uil-eye"></i></span>
+                    </button>
+                    <div class="work-meta"><span>Cybersécurité</span><span>Projet collaboratif</span></div>
+                    <h3 class="work-title">Vigilant Guardian</h3>
+                    <p class="work-summary">Veille CVE et recommandations défensives assistées par IA.</p>
+                    <button class="work-button" type="button">Voir le projet <i class="uil uil-arrow-right work-button-icon"></i></button>
+                </article>
+
+                <article class="work-card" data-category="infrastructure security" data-project="infrastructure">
+                    <button class="work-media" type="button" aria-label="Voir les détails de l'infrastructure multi-sites">
+                        <img src="assets/projects/infrastructure-source.webp" alt="Schéma d'une infrastructure réseau multi-sites sécurisée" class="work-img" loading="lazy">
+                        <span class="work-eye" aria-hidden="true"><i class="uil uil-eye"></i></span>
+                    </button>
+                    <div class="work-meta"><span>Infrastructure</span><span>Projet académique</span></div>
+                    <h3 class="work-title">Infrastructure multi-sites</h3>
+                    <p class="work-summary">Architecture segmentée reliant deux sites par VPN IPsec.</p>
+                    <button class="work-button" type="button">Voir le projet <i class="uil uil-arrow-right work-button-icon"></i></button>
+                </article>
+
+                <article class="work-card" data-category="development security" data-project="hermess">
+                    <button class="work-media" type="button" aria-label="Voir les détails de HERMESS">
+                        <img src="assets/projects/hermess-source.webp" alt="Interface de conversation du projet de messagerie HERMESS" class="work-img" loading="lazy">
+                        <span class="work-eye" aria-hidden="true"><i class="uil uil-eye"></i></span>
+                    </button>
+                    <div class="work-meta"><span>Développement</span><span>Messagerie sécurisée</span></div>
+                    <h3 class="work-title">HERMESS</h3>
+                    <p class="work-summary">Messagerie Web hautement sécurisée avec chiffrement de bout en bout.</p>
+                    <button class="work-button" type="button">Voir le projet <i class="uil uil-arrow-right work-button-icon"></i></button>
+                </article>
+
+                <article class="work-card" data-category="development infrastructure" data-project="ldap">
+                    <button class="work-media" type="button" aria-label="Voir les détails de LDAP Manager">
+                        <img src="assets/projects/ldap-manager-source.webp" alt="Interface d'administration des utilisateurs LDAP" class="work-img" loading="lazy">
+                        <span class="work-eye" aria-hidden="true"><i class="uil uil-eye"></i></span>
+                    </button>
+                    <div class="work-meta"><span>Développement</span><span>Administration LDAP</span></div>
+                    <h3 class="work-title">LDAP Manager</h3>
+                    <p class="work-summary">Interface Web pour gérer simplement les utilisateurs et groupes LDAP.</p>
+                    <button class="work-button" type="button">Voir le projet <i class="uil uil-arrow-right work-button-icon"></i></button>
+                </article>
+
+                <article class="work-card" data-category="development security" data-project="password">
+                    <button class="work-media" type="button" aria-label="Voir les détails du gestionnaire de mots de passe">
+                        <span class="work-graphic graphic-password" role="img" aria-label="Illustration d'un gestionnaire de mots de passe">
+                            <i class="uil uil-key-skeleton-alt"></i><span>••••••••••</span>
+                        </span>
+                        <span class="work-eye" aria-hidden="true"><i class="uil uil-eye"></i></span>
+                    </button>
+                    <div class="work-meta"><span>Python</span><span>Cryptographie</span></div>
+                    <h3 class="work-title">Gestionnaire de mots de passe</h3>
+                    <p class="work-summary">Coffre-fort CLI avec base SQLite entièrement chiffrée.</p>
+                    <button class="work-button" type="button">Voir le projet <i class="uil uil-arrow-right work-button-icon"></i></button>
+                </article>
+
+                <article class="work-card" data-category="development security" data-project="scanner">
+                    <button class="work-media" type="button" aria-label="Voir les détails du scanner de ports TCP">
+                        <span class="work-graphic graphic-scanner" role="img" aria-label="Illustration d'un scanner de ports réseau">
+                            <i class="uil uil-crosshairs"></i><span>22 · 80 · 443</span>
+                        </span>
+                        <span class="work-eye" aria-hidden="true"><i class="uil uil-eye"></i></span>
+                    </button>
+                    <div class="work-meta"><span>Python</span><span>Réseau</span></div>
+                    <h3 class="work-title">Scanner de ports TCP</h3>
+                    <p class="work-summary">Détection séquentielle et multithread des ports ouverts.</p>
+                    <button class="work-button" type="button">Voir le projet <i class="uil uil-arrow-right work-button-icon"></i></button>
+                </article>
+
+                <article class="work-card" data-category="development security" data-project="stegano">
+                    <button class="work-media" type="button" aria-label="Voir les détails du projet de stéganographie">
+                        <span class="work-graphic graphic-stegano" role="img" aria-label="Illustration de stéganographie dans une image">
+                            <i class="uil uil-image-lock"></i><span>LSB + AES</span>
+                        </span>
+                        <span class="work-eye" aria-hidden="true"><i class="uil uil-eye"></i></span>
+                    </button>
+                    <div class="work-meta"><span>Python</span><span>Stéganographie</span></div>
+                    <h3 class="work-title">Stéganographie chiffrée</h3>
+                    <p class="work-summary">Dissimulation de messages dans des PNG avec chiffrement.</p>
+                    <button class="work-button" type="button">Voir le projet <i class="uil uil-arrow-right work-button-icon"></i></button>
+                </article>
+            </div>
+        </section>
+
+        <section class="qualification section" id="qualification">
+            <h2 class="section-title" data-heading="Mon parcours">Expérience & Formation</h2>
+            <div class="qualification-container container grid">
+                <div class="education">
+                    <h3 class="qualification-title"><i class="uil uil-graduation-cap" aria-hidden="true"></i> Formation</h3>
+                    <div class="timeline">
+                        <article class="timeline-item">
+                            <div class="circle-dot" aria-hidden="true"></div>
+                            <h4 class="timeline-title">Baccalauréat Informatique – Cybersécurité</h4>
+                            <p class="timeline-text">UQAC, Chicoutimi</p>
+                            <span class="timeline-date"><i class="uil uil-calendar-alt"></i> 2025 – 2026</span>
+                        </article>
+                        <article class="timeline-item">
+                            <div class="circle-dot" aria-hidden="true"></div>
+                            <h4 class="timeline-title">BUT Réseaux & Télécommunications – Cybersécurité</h4>
+                            <p class="timeline-text">IUT de Kourou, Kourou</p>
+                            <span class="timeline-date"><i class="uil uil-calendar-alt"></i> 2023 – 2026</span>
+                        </article>
+                        <article class="timeline-item">
+                            <div class="circle-dot" aria-hidden="true"></div>
+                            <h4 class="timeline-title">Baccalauréat général</h4>
+                            <p class="timeline-text">Lycée Léon-Gontran-Damas, Rémire-Montjoly</p>
+                            <span class="timeline-date"><i class="uil uil-calendar-alt"></i> 2018 – 2021</span>
+                        </article>
+                    </div>
+                </div>
+                <div class="experience">
+                    <h3 class="qualification-title"><i class="uil uil-suitcase-alt" aria-hidden="true"></i> Expérience</h3>
+                    <div class="timeline">
+                        <article class="timeline-item">
+                            <div class="circle-dot" aria-hidden="true"></div>
+                            <h4 class="timeline-title">Assistant informatique</h4>
+                            <p class="timeline-text">DigitRE Group, Montpellier — Microsoft 365, Entra ID, Azure Automation et environnements Web.</p>
+                            <span class="timeline-date"><i class="uil uil-calendar-alt"></i> Juin – août 2026</span>
+                        </article>
+                        <article class="timeline-item">
+                            <div class="circle-dot" aria-hidden="true"></div>
+                            <h4 class="timeline-title">Technicien informatique</h4>
+                            <p class="timeline-text">GENSUN, Montpellier — administration du parc, déploiement, maintenance et support N1/N2.</p>
+                            <span class="timeline-date"><i class="uil uil-calendar-alt"></i> Mai – juillet 2025</span>
+                        </article>
+                        <article class="timeline-item">
+                            <div class="circle-dot" aria-hidden="true"></div>
+                            <h4 class="timeline-title">Assistant informatique · Stage</h4>
+                            <p class="timeline-text">Aéroport Cayenne Félix-Éboué — administration des systèmes, support N1/N2, configuration et déploiement de nouveaux équipements.</p>
+                            <span class="timeline-date"><i class="uil uil-calendar-alt"></i> Juillet – août 2024</span>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <h2 class="section-title" data-heading="Restons en contact">Me contacter</h2>
+            <div class="contact-container container grid">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="uil uil-envelope-edit contact-card-icon" aria-hidden="true"></i>
+                        <h3 class="contact-card-title">E-mail</h3>
+                        <span class="contact-card-data">dimitry.leonco@gmail.com</span>
+                        <a href="mailto:dimitry.leonco@gmail.com" class="contact-button">Écrire <i class="uil uil-arrow-right contact-button-icon"></i></a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="uil uil-linkedin-alt contact-card-icon" aria-hidden="true"></i>
+                        <h3 class="contact-card-title">LinkedIn</h3>
+                        <span class="contact-card-data">dimitry-leonco</span>
+                        <a href="https://linkedin.com/in/dimitry-leonco" target="_blank" rel="noopener noreferrer" class="contact-button">Consulter <i class="uil uil-arrow-right contact-button-icon"></i></a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="uil uil-github-alt contact-card-icon" aria-hidden="true"></i>
+                        <h3 class="contact-card-title">GitHub</h3>
+                        <span class="contact-card-data">DimLeon009</span>
+                        <a href="https://github.com/DimLeon009/" target="_blank" rel="noopener noreferrer" class="contact-button">Consulter <i class="uil uil-arrow-right contact-button-icon"></i></a>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contact-form">
+                    <div class="input-container">
+                        <input type="text" name="name" class="input" id="contact-name" autocomplete="name" required>
+                        <label for="contact-name">Votre nom</label><span>Votre nom</span>
+                    </div>
+                    <div class="input-container">
+                        <input type="text" name="subject" class="input" id="contact-subject" required>
+                        <label for="contact-subject">Objet</label><span>Objet</span>
+                    </div>
+                    <div class="input-container textarea">
+                        <textarea name="message" class="input" id="contact-message" required></textarea>
+                        <label for="contact-message">Votre message</label><span>Votre message</span>
+                    </div>
+                    <button type="submit" class="button">
+                        <i class="uil uil-message button-icon" aria-hidden="true"></i>
+                        Préparer l'e-mail
+                    </button>
+                    <p class="form-note">Votre application de messagerie s'ouvrira avec le message prérempli.</p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-bg">
+            <div class="footer-container container">
+                <div>
+                    <h2 class="footer-title">Dimitry LEONCO</h2>
+                    <span class="footer-subtitle">Étudiant en cybersécurité</span>
+                </div>
+                <ul class="footer-links">
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#work">Projets</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="footer-socials">
+                    <a href="https://github.com/DimLeon009/" target="_blank" rel="noopener noreferrer" class="footer-social" aria-label="GitHub"><i class="uil uil-github-alt"></i></a>
+                    <a href="https://linkedin.com/in/dimitry-leonco" target="_blank" rel="noopener noreferrer" class="footer-social" aria-label="LinkedIn"><i class="uil uil-linkedin-alt"></i></a>
+                </div>
+            </div>
+            <p class="footer-copy">© <span id="current-year"></span> Dimitry LEONCO. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <div class="portfolio-popup" id="portfolio-popup" role="dialog" aria-modal="true" aria-labelledby="popup-title" hidden>
+        <div class="portfolio-popup-inner">
+            <button class="portfolio-popup-close" type="button" aria-label="Fermer les détails du projet">
+                <i class="uil uil-times" aria-hidden="true"></i>
+            </button>
+            <div class="portfolio-popup-content grid">
+                <div class="pp-thumbnail" id="popup-media"></div>
+                <div class="portfolio-popup-body">
+                    <p class="portfolio-popup-subtitle">Projet · <span id="popup-category"></span></p>
+                    <h2 class="details-title" id="popup-title"></h2>
+                    <p class="details-description" id="popup-description"></p>
+                    <ul class="details-info" id="popup-details"></ul>
+                    <div class="popup-gallery" id="popup-gallery"></div>
+                    <a class="button popup-link" id="popup-link" href="#" target="_blank" rel="noopener noreferrer">
+                        <i class="uil uil-github-alt button-icon" aria-hidden="true"></i>
+                        Voir sur GitHub
+                    </a>
+                    <span class="repo-soon" id="repo-soon">Dépôt bientôt disponible</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <noscript>
+        <p class="noscript">JavaScript est nécessaire pour les filtres, les détails des projets et le formulaire de contact.</p>
+    </noscript>
+</body>
+</html>
