@@ -385,6 +385,7 @@ input.input:-webkit-autofill:focus {
 .popup-gallery img { width: 86px; height: 55px; object-fit: cover; object-position: top; border-radius: .3rem; border: 1px solid var(--line-color); cursor: pointer; }
 .popup-gallery img:hover { border-color: var(--skin-color); }
 .repo-soon { display: inline-block; color: var(--text-color); font-size: var(--small-font-size); border: 1px solid var(--line-color); padding: .75rem 1rem; border-radius: .35rem; }
+.popup-link[hidden], .repo-soon[hidden] { display: none; }
 .body-locked { overflow: hidden; }
 .noscript { position: fixed; bottom: 1rem; right: 1rem; background: #b91c1c; color: white; padding: .7rem 1rem; border-radius: .4rem; z-index: 3000; }
 

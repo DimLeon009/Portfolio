@@ -252,9 +252,14 @@ function openProject(projectKey, trigger) {
     });
 
     popupGallery.hidden = project.gallery.length === 0;
-    popupLink.hidden = !project.link;
-    repoSoon.hidden = Boolean(project.link);
-    if (project.link) popupLink.href = project.link;
+    const hasRepository = Boolean(project.link);
+    popupLink.hidden = !hasRepository;
+    repoSoon.hidden = hasRepository;
+    if (hasRepository) {
+        popupLink.href = project.link;
+    } else {
+        popupLink.removeAttribute("href");
+    }
 
     popup.hidden = false;
     document.body.classList.add("body-locked");
