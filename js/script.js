@@ -5,9 +5,9 @@ const portfolioLinks = {
     vigilantGuardian: "https://github.com/JasonVachier/vigilant-guardian",
     hermess: "",
     ldapManager: "",
-    passwordManager: "",
-    portScanner: "",
-    steganography: ""
+    passwordManager: "https://github.com/DimLeon009/password-manager",
+    portScanner: "https://github.com/DimLeon009/scanner",
+    steganography: "https://github.com/DimLeon009/stegano"
 };
 
 const projectData = {
@@ -89,9 +89,9 @@ const projectData = {
         title: "Stéganographie LSB avec chiffrement",
         category: "Développement · Cybersécurité",
         description: "Application CLI permettant de cacher et révéler des messages dans des images PNG en modifiant les bits de poids faible des pixels. Un chiffrement optionnel protège le message avant son insertion.",
-        technologies: "Python, Pillow, LSB, AES-GCM, PBKDF2",
+        technologies: "Python, Pillow, LSB, AES-256-GCM, PBKDF2",
         role: "Projet académique individuel",
-        highlights: "Dissimulation et extraction, calcul de capacité, conversion PNG et protection par mot de passe",
+        highlights: "Dissimulation et extraction, calcul de capacité, conversion PNG, détection automatique du chiffrement et protection par mot de passe",
         graphic: "graphic-stegano",
         icon: "uil-image-lock",
         label: "LSB + AES",
